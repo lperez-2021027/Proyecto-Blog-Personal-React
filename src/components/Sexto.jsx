@@ -25,10 +25,72 @@ export const Sexto = () => {
                     <div className="container single-col-max-width">
 
                         <Item
-                            title="Proyecto..."
-                            img="https://images.vexels.com/media/users/3/136638/isolated/preview/8794edc043ac61418c90043b1ed63f2b-purple-flower-icon.png"
+                            title="Proyecto Blog Personal desarrollado con React"
+                            img="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                            text={txtSexto.proyecto10}
+                            URL="https://github.com/lperez-2021027/Proyecto-Blog-Personal-React.git"
+                        ></Item>
+
+                        <Item
+                            title="Proyecto Almacenadora"
+                            img="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                            text={txtSexto.proyecto9}
+                            URL="https://github.com/lperez-2021027/Proyecto-Almacenadora.git"
+                        ></Item>
+
+                        <Item
+                            title="Proyecto Venta Online"
+                            img="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+                            text={txtSexto.proyecto10}
+                            URL="https://github.com/lperez-2021027/Venta-Online.git"
+                        ></Item>
+                        <Item
+                            title="Proyecto Identificación de errores en gestor  de opiniones"
+                            img="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+                            text={txtSexto.proyecto7}
+                            URL="https://github.com/lperez-2021027/Gestor-de-opiniones.git"
+                        ></Item>
+
+                        <Item
+                            title="Proyecto Control Empresas con NodeJS"
+                            img="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+                            text={txtSexto.proyecto4}
+                            URL="https://github.com/lperez-2021027/Control-empresas.git"
+                        ></Item>
+
+                        <Item
+                            title="Proyecto Control Acádemico con NodeJS"
+                            img="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+                            text={txtSexto.proyecto3}
+                            URL="https://github.com/lperez-2021027/Control-estudiantes"
+                        ></Item>
+
+                        <Item
+                            title="CRUD de la entidad Categoria como parte del desarrollo del proyecto final de unidad"
+                            img="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+                            text={txtSexto.proyecto2}
+                            URL="https://github.com/lperez-2021027/RestServer-CRUD-categoria"
+                        ></Item>
+
+                        <Item
+                            title="Diseño de vista para una agenda web utilizando html y css"
+                            img="https://cdn-icons-png.flaticon.com/512/2351/2351825.png"
                             text={txtSexto.proyecto1}
-                            URL="/sexto"
+                            URL="https://github.com/lperez-2021027/Agenda-web"
+                        ></Item>
+
+                        <Item
+                            title="Creación de página web y hosteo de la misma"
+                            img="https://cdn-icons-png.flaticon.com/512/2351/2351825.png"
+                            text={txtSexto.proyecto6}
+                            URL="https://github.com/lperez-2021027/Laboratorio-1.git"
+                        ></Item>
+
+                        <Item
+                            title="Práctia e introducción a NodeJS"
+                            img="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+                            text={txtSexto.proyecto5}
+                            URL="https://github.com/lperez-2021027/Servivor-de-prueba-NodeJS.git"
                         ></Item>
 
                     </div>

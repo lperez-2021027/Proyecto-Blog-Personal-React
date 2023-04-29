@@ -25,10 +25,10 @@ export const Cuarto = () => {
                     <div className="container single-col-max-width">
 
                         <Item
-                            title="Proyecto..."
-                            img="https://cdn-icons-png.flaticon.com/512/774/774832.png"
+                            title="Proyecto biblioteca musical"
+                            img="https://icons.veryicon.com/png/o/system/inspur-cloud-icon/rds-mysql.png"
                             text={txtCuarto.proyecto1}
-                            URL="/cuarto"
+                            URL="https://github.com/lperez-2021027/Script-SQL-Biblioteca-Musical.git"
                         ></Item>
 
                     </div>

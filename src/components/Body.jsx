@@ -13,7 +13,7 @@ export const Body = () => {
                     <div className="container text-center single-col-max-width">
                         <h1 className="heading">Proyectos que he realizado</h1>
                         <div className="intro ">
-                            Aquí encontrarás proyectos que he desarrollado a lo largo de mi carrera como estudiante de la carrera perito en informática.
+                            Aquí encontrarás proyectos que he desarrollado a lo largo de mi carrera como estudiante de informática.
                             <br /> <br />
                             <p className='fs-4 heading'> Y algunas palabras...</p>
                             Ha sido una gran travesía la recorrida para mí estos últimos tres años, fue una grandiosa experiencia el aprender y

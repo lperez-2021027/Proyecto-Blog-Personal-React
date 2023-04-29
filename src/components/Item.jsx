@@ -23,7 +23,7 @@ export const Item = (props) => {
                         <div className="intro fs-5 text">
                             {props.text}
                         </div>
-                        <Link to={props.URL} className="no-text-decoration nav-link text-link">
+                        <Link to={props.URL} className="no-text-decoration nav-link text-link" target='_blank'>
                             Visitar el proyecto &rarr;
                         </Link>
                     </div>
