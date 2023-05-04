@@ -25,40 +25,53 @@ export const Quinto = () => {
                     <div className="container single-col-max-width">
 
                         <Item
-                            title="Proyecto Final"
+                            title="Pequeño Control Académico Web con Java Enterprise Edition"
                             img="https://ocs-consulting.be/wp-content/uploads/2018/03/java-ee-logo.png"
-                            text={txtQuinto.proyecto5}
+                            text={txtQuinto.proyecto7}
                             URL="https://github.com/lperez-2021027/Proyecto-final-2022"
                         ></Item>
 
                         <Item
-                            title="Proyecto Control Acádemico con Java Enterprise Edition"
+                            title="Control Académico Web con Java Enterprise Edition"
                             img="https://ocs-consulting.be/wp-content/uploads/2018/03/java-ee-logo.png"
-                            text={txtQuinto.proyecto3}
+                            text={txtQuinto.proyecto6}
                             URL="https://github.com/lperez-2021027/Proyecto-Control-Academico-JEE"
                         ></Item>
 
                         <Item
-                            title="Proyecto Control Acádemico con JavaFX"
+                            title="Control Académico con interfaz gráfica"
                             img="https://i0.wp.com/gluonhq.com/wp-content/uploads/2015/09/javafx_logo1.jpg?fit=404%2C375&ssl=1"
-                            text={txtQuinto.proyecto4}
+                            text={txtQuinto.proyecto5}
                             URL="https://github.com/lperez-2021027/Javafx-Proyecto-Control-Academico-IN5BM.git"
                         ></Item>
 
                         <Item
-                            title="Proyecto calculadora JavaFx"
+                            title="Calculadora con interfaz gráfica"
                             img="https://i0.wp.com/gluonhq.com/wp-content/uploads/2015/09/javafx_logo1.jpg?fit=404%2C375&ssl=1"
-                            text={txtQuinto.proyecto2}
+                            text={txtQuinto.proyecto4}
                             URL="https://github.com/lperez-2021027/Calculadora-JavaFx.git"
                         ></Item>
 
                         <Item
-                            title="Proyecto Consultas PL/SQL en MySQL"
+                            title="MySQL Consultas PL/SQL en MySQL"
                             img="https://icons.veryicon.com/png/o/system/inspur-cloud-icon/rds-mysql.png"
-                            text={txtQuinto.proyecto1}
+                            text={txtQuinto.proyecto3}
                             URL="https://github.com/lperez-2021027/SQL-Consultas-PL-SQL.git"
                         ></Item>
 
+                        <Item
+                            title="Procedimientos almacenados y triggers en MySQL"
+                            img="https://icons.veryicon.com/png/o/system/inspur-cloud-icon/rds-mysql.png"
+                            text={txtQuinto.proyecto2}
+                            URL="https://github.com/lperez-2021027/MySQL-Triggers-Procedures.git"
+                        ></Item>
+
+                        <Item
+                            title="Práctica y uso de Joins en MySQL"
+                            img="https://icons.veryicon.com/png/o/system/inspur-cloud-icon/rds-mysql.png"
+                            text={txtQuinto.proyecto1}
+                            URL="https://github.com/lperez-2021027/MySQL-Joins.git"
+                        ></Item>
 
                     </div>
                 </section>

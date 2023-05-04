@@ -3,6 +3,16 @@ import '../assets/css/theme-8.css'
 
 export const Item = (props) => {
 
+    const linkText = {
+        color: "#a8549c"
+    }
+
+    const imgStyle = {
+        width: "400px",
+        height: "auto",
+        maxWidth: "100%"
+    }
+
     return (
 
         <>
@@ -10,8 +20,10 @@ export const Item = (props) => {
                 <div className="row g-3 g-xl-0">
 
                     <div className="col-sm-12 col-xl-3">
-                        <img className="img-fluid post-thumb " src={props.img}
-                            alt={props.title} />
+                        <Link to={props.URL}  >
+                            <img className="img-fluid post-thumb px-4 py-1" src={props.img}
+                                alt={props.title} style={imgStyle}/>
+                        </Link>
                     </div>
 
                     <div className="col ">
@@ -23,7 +35,7 @@ export const Item = (props) => {
                         <div className="intro fs-5 text">
                             {props.text}
                         </div>
-                        <Link to={props.URL} className="no-text-decoration nav-link text-link" target='_blank'>
+                        <Link to={props.URL} className="no-text-decoration nav-link fs-5" style={linkText}>
                             Visitar el proyecto &rarr;
                         </Link>
                     </div>

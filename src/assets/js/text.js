@@ -16,19 +16,30 @@ export const txtSexto = {
     "proyecto8": "Desarrollo de un analisís para la identificación y solución de errores en un API brindada por el profesor",
     "proyecto9": "Pequeña introducción al marco de trabajo React para la creación y diseño visual de aplicaciones web, trabajo en equipo",
     "proyecto10": "Desarrollo del proyecto final de unidad, creación de un API y realización de consultas a una base de datos no relacional: MongoDB",
-    "proyecto11": "",
     "proyecto7": "Desarrollo de un analisís para la identificación y solución de errores en un API brindada por el profesor",
 }
 
 export const txtQuinto = {
-    "proyecto1": "Desarrollo y práctica de funciones y PL/SQL en MySQL, examen parcial de unidad ",
-    "proyecto2": "Desarrollo de aplicación de escritorio utilizando Java 11, SceneBuilder y JavaFx",
-    "proyecto3": "Desarrollo de una aplicación web, utilizando Jakarta 8, MySQL y Java Persistence API",
-    "proyecto4": "Desarrollo de una aplicación de escritorio, utilizando java 11, MySQL, JavaFx y SceneBuilder",
-    "proyecto5": "Proyecto final: desarrollo de una aplicación web, utilizando Jakarta 8, MySQL y Java Persistence API",
+    "proyecto1": "Práctica para el uso de Joins en MySQL, aprendizaje de consultas más complejas en MySQL Workbench",
+    "proyecto2": "Práctica y uso de triggers para el manejo de eventos en una base de datos relacional MySQL",
+    "proyecto3": "Práctica de funciones almacenadas y PL/SQL en MySQL, utilizando la interfaz gráfica MySQL Workbench",
+    "proyecto4": "Desarrollo de una aplicación de escritorio, una calculadora con operaciones matemáticas simples, desarollada utilizando Java 11, SceneBuilder y JavaFx",
+    "proyecto6": "Desarrollo de una aplicación web, utilizando Jakarta 8, MySQL y Java Persistence API",
+    "proyecto5": "Proyecto para la gestión académica con implementación de un CRUD en java",
+    "proyecto7": "Prueba final, desarrollo de una pequeña aplicación web para la gestión de materias, utilizando Jakarta 8, MySQL y Java Persistence API",
 }
 
 export const txtCuarto = {
-    "proyecto1": "Práctica de MySQL, lenguajes DML y DDL, desarrollo de una pequeña base de datos",
-    "proyecto2": "Descripción del segundo proyecto",
+    "proyecto1": "Diseño y desarrollo de topologías utilizando el simulador de cisco Packet Tracer",
+    "proyecto2": "Pequeña serie de ejercicios de práctica para la familiarización con la lógica de programación y el lenguaje java",
+    "proyecto3": "Pequeño proyecto en el cual desarrollé una calculadora básica funcional en consola",
+    "proyecto4": "Práctica para el aprendizaje y familiarización con el sistema gestor de base de datos relacionales MySQL, utilizando su interfaz gráfica MySQL Workbench",
+    "proyecto5": "Práctica en el uso y aplicación de procedimientos almacenados en una base de datos relacional",
+    "proyecto6": "Práctica en MySQL Workbench, repaso de los lenguajes DML y DDL",
+}
+
+export const imgStyle = {
+    width: "200px",
+    height: "auto",
+    maxWidth: "100%"
 }

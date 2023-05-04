@@ -1,33 +1,44 @@
 import { Link } from 'react-router-dom';
 import '../assets/css/theme-8.css'
+import { useState } from 'react';
 
 export const NavBar = () => {
+
+    const [expanded, setExpanded] = useState(false);
+
+    const showNav = () => {
+        setExpanded(!expanded);
+    }
 
     return (
         <>
             <header className="header text-center">
-                <h1 className="blog-name pt-lg-4 mb-0">
-                    <a className="no-text-decoration" href="https://www.youtube.com/@Sewerslvt" target="_blank">Luis Carlos</a>
+                <h1 className="blog-name pt-lg-4 mb-0 list-inline">
+                    {/* <p className='list-inline-item' >Jvne</p> */}
+                    <a className="no-text-decoration list-inline-item" href="https://www.youtube.com/@Sewerslvt" target="_blank">                        
+                        <i className="fas fa-heart"></i>
+                    </a>
                 </h1>
 
                 <nav className="navbar navbar-expand-lg navbar-dark">
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
-                        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                        aria-controls="navigation" aria-expanded={expanded} aria-label="Toggle navigation" onClick={showNav}>
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div id="navigation" className="collapse navbar-collapse flex-column">
-                        <div className="profile-section pt-3 pt-lg-0">
+                        <div className="profile-section pt-lg-0">
                             <img className="profile-image mb-3 rounded-circle mx-auto"
                                 src="https://i.pinimg.com/564x/8d/e8/ee/8de8eee444eec2d19350ffb9cdb44e3c.jpg" alt="image" />
 
                             <div className="bio mb-3">
-                                <p className="text">
-                                    Hola, mi nombre es Luis Carlos.
-                                    <br />
+                                <p className="text ">
+                                    Hola, mi nombre es Luis Carlos :)
+                                    <br /> <br />
                                     Aquí encontrarás los
-                                    proyectos que he realizado a lo largo de mi formación como profesional
+                                    proyectos que he desarrollado y ejercicios en diversas tecnologías
+                                    que he realizado a lo largo de mi formación como profesional
                                     en el área de la informática
                                 </p>
                             </div>
@@ -43,7 +54,7 @@ export const NavBar = () => {
 
 
                                 <li className="list-inline-item">
-                                    <a href="https://youtu.be/wL2ylkbNVqU" target='_blank'>
+                                    <a href="https://youtu.be/dTh4cp_ypu4" target='_blank'>
                                         <i className="fas fa-heart"></i></a>
                                 </li>
 
@@ -63,19 +74,19 @@ export const NavBar = () => {
                             <li className="nav-item">
                                 <Link to="/sexto" className="no-text-decoration nav-link">
                                     <i className="fas fa-bookmark fa-fw me-2"></i>
-                                    Proyectos de 6to. año
+                                    Proyectos de 6to.
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/quinto" className="no-text-decoration nav-link">
                                     <i className="fas fa-bookmark fa-fw me-2"></i>
-                                    Proyectos de 5to. año
+                                    Proyectos de 5to.
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/cuarto" className="no-text-decoration nav-link">
                                     <i className="fas fa-bookmark fa-fw me-2"></i>
-                                    Proyectos de 4to. año
+                                    Proyectos de 4to.
                                 </Link>
                             </li>
                             {/* <li className="nav-item">
@@ -93,7 +104,7 @@ export const NavBar = () => {
                         </div>
                     </div>
                 </nav>
-            </header>
+            </header >
         </>
     );
 

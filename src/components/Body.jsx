@@ -5,6 +5,10 @@ import { txt } from '../assets/js/text'
 
 export const Body = () => {
 
+    const txtColorblk = {
+        color: "#333"
+    }
+
     return (
         <>
             <div className="main-wrapper">
@@ -12,17 +16,18 @@ export const Body = () => {
                 <section className="cta-section theme-bg-light py-5">
                     <div className="container text-center single-col-max-width">
                         <h1 className="heading">Proyectos que he realizado</h1>
+                        <h2>{}</h2>
                         <div className="intro ">
-                            Aquí encontrarás proyectos que he desarrollado a lo largo de mi carrera como estudiante de informática.
+                            Aquí encontrarás proyectos y ejercicios de diversas tecnologías que he desarrollado a lo largo de mi carrera como estudiante de informática.
                             <br /> <br />
-                            <p className='fs-4 heading'> Y algunas palabras...</p>
+                            <p className='fs-4 heading' style={txtColorblk}> Y algunas palabras...</p>
                             Ha sido una gran travesía la recorrida para mí estos últimos tres años, fue una grandiosa experiencia el aprender y
                             el aquirir nuevo conocimiento en esta aventura. 
                             <br />
-                            Con paciencia y dedicación todos pueden lograr lo que deseen, es una lección que veo reflejada el
-                            día de hoy cuando brindo un vistazo al pasado y veo el camino que he trazado; y cuando veo hacía el futuro, proyectando el camino que tomaré.
-                        </div>
-                        <div className="single-form-max-width pt-3 mx-auto">
+                            Con paciencia y dedicación todos pueden lograr cumplir sus sueños, es una lección que veo reflejada el
+                            día de hoy cuando brindo un vistazo al pasado y veo el camino que he trazado; 
+                            <br />
+                            y cuando veo hacía el futuro, proyectando el camino que seguiré.
                         </div>
                     </div>
                 </section>
